@@ -1,0 +1,121 @@
+INFO:root:        course_name duration
+1  Machine Learning        3
+INFO:root:Output for new_df.loc[2]: column_1    0.674752
+column_2    0.317202
+column_3    0.778345
+column_4    0.949571
+column_5    0.662527
+column_6    0.013572
+Name: 2, dtype: float64
+INFO:root:
+Output for new_df.iloc[2]: column_1    0.995300
+column_2    0.581850
+column_3    0.414369
+column_4    0.474698
+column_5    0.623510
+column_6    0.338008
+Name: 1, dtype: float64
+INFO:root:mean of column_1 is 0.5548785844119927
+INFO:root:mean of column_2 is 0.45043599403010265
+INFO:root:mean of column_3 is 0.5117641185277878
+INFO:root:mean of column_4 is 0.5718022754065853
+INFO:root:mean of column_5 is 0.595139235386046
+INFO:root:mean of column_6 is 0.5457455157419666
+INFO:root:standard deviation of column_6 is 0.21092798121298384
+ERROR:root:Error:unsupported operand type(s) for +: 'float' and 'str'
+INFO:root:Current Month: 8
+INFO:root:Current Year: 2023
+INFO:root:Time Difference: 29 days, 0 hours, 0 minutes
+INFO:root:     PassengerId  Survived  Pclass   
+0              1         0       3  \
+1              2         1       1   
+2              3         1       3   
+3              4         1       1   
+4              5         0       3   
+..           ...       ...     ...   
+886          887         0       2   
+887          888         1       1   
+888          889         0       3   
+889          890         1       1   
+890          891         0       3   
+
+                                                  Name     Sex   Age  SibSp   
+0                              Braund, Mr. Owen Harris    male  22.0      1  \
+1    Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                               Heikkinen, Miss. Laina  female  26.0      0   
+3         Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                             Allen, Mr. William Henry    male  35.0      0   
+..                                                 ...     ...   ...    ...   
+886                              Montvila, Rev. Juozas    male  27.0      0   
+887                       Graham, Miss. Margaret Edith  female  19.0      0   
+888           Johnston, Miss. Catherine Helen "Carrie"  female   NaN      1   
+889                              Behr, Mr. Karl Howell    male  26.0      0   
+890                                Dooley, Mr. Patrick    male  32.0      0   
+
+     Parch            Ticket     Fare Cabin Embarked  
+0        0         A/5 21171   7.2500   NaN        S  
+1        0          PC 17599  71.2833   C85        C  
+2        0  STON/O2. 3101282   7.9250   NaN        S  
+3        0            113803  53.1000  C123        S  
+4        0            373450   8.0500   NaN        S  
+..     ...               ...      ...   ...      ...  
+886      0            211536  13.0000   NaN        S  
+887      0            112053  30.0000   B42        S  
+888      2        W./C. 6607  23.4500   NaN        S  
+889      0            111369  30.0000  C148        C  
+890      0            370376   7.7500   NaN        Q  
+
+[891 rows x 12 columns]
+INFO:root:Sorted Data:              PassengerId  Survived  Pclass   
+Survived                                      
+0        0              1         0       3  \
+         617          618         0       3   
+         616          617         0       3   
+         614          615         0       3   
+         613          614         0       3   
+...                   ...       ...     ...   
+1        303          304         1       2   
+         301          302         1       3   
+         300          301         1       3   
+         311          312         1       1   
+         889          890         1       1   
+
+                                                         Name     Sex   Age   
+Survived                                                                      
+0        0                            Braund, Mr. Owen Harris    male  22.0  \
+         617  Lobb, Mrs. William Arthur (Cordelia K Stanlick)  female  26.0   
+         616                        Danbom, Mr. Ernst Gilbert    male  34.0   
+         614                  Brocklebank, Mr. William Alfred    male  35.0   
+         613                                 Horgan, Mr. John    male   NaN   
+...                                                       ...     ...   ...   
+1        303                              Keane, Miss. Nora A  female   NaN   
+         301                               McCoy, Mr. Bernard    male   NaN   
+         300         Kelly, Miss. Anna Katherine "Annie Kate"  female   NaN   
+         311                       Ryerson, Miss. Emily Borie  female  18.0   
+         889                            Behr, Mr. Karl Howell    male  26.0   
+
+              SibSp  Parch     Ticket     Fare            Cabin Embarked  
+Survived                                                                  
+0        0        1      0  A/5 21171    7.250              NaN        S  
+         617      1      0  A/5. 3336   16.100              NaN        S  
+         616      1      1     347080   14.400              NaN        S  
+         614      0      0     364512    8.050              NaN        S  
+         613      0      0     370377    7.750              NaN        Q  
+...             ...    ...        ...      ...              ...      ...  
+1        303      0      0     226593   12.350             E101        Q  
+         301      2      0     367226   23.250              NaN        Q  
+         300      0      0       9234    7.750              NaN        Q  
+         311      2      2   PC 17608  262.375  B57 B59 B63 B66        C  
+         889      0      0     111369   30.000             C148        C  
+
+[891 rows x 12 columns]
+INFO:root:Sample sales data saved to 'sales_data.csv'
+INFO:root: result :   Statistic Value
+0      Mean  83.5
+1    Median  85.0
+2      Mode    85
+INFO:root:None
+INFO:root: result :   Statistic Value
+0      Mean  83.5
+1    Median  85.0
+2      Mode    85
